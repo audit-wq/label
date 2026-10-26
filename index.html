@@ -480,6 +480,10 @@ document.addEventListener("DOMContentLoaded", function () {
   $("csv").addEventListener("change", function (e) { if (e.target.files[0]) loadCSV(e.target.files[0]); });
   bindSettings();
   setItems(EMBEDDED_ITEMS, 'item list updated 26 Oct 2026 15:30');
+  // Load the newest item list straight from the server (the ?t= part skips GitHub's 10-minute page cache)
+  fetch('items-data.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    if (d && d.items && d.items.length > 100 && !QUEUE.length) setItems(d.items, 'item list updated ' + d.stamp);
+  }).catch(function () {});
 });
 </script>
 </body>

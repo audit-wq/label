@@ -16,6 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "data", "items.json")
 TEMPLATE = os.path.join(ROOT, "scripts", "template.html")
 OUT = os.path.join(ROOT, "index.html")
+DATA = os.path.join(ROOT, "items-data.json")
 BIDI = dict.fromkeys(map(ord, "‎‏‪‫‬‭‮⁦⁧⁨⁩"))
 
 
@@ -98,13 +99,14 @@ def main():
     json.dump(new_cache, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False, indent=0, sort_keys=True)
 
     print("Items: %d  | Arabic looked up: %d  | Without Arabic: %s" % (len(data), fetched, ", ".join(missing_ar) or "none"))
-    if old_data == data:
+    if old_data == data and os.path.exists(DATA):
         print("No item changes - page left as it is.")
         return
     stamp = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).strftime("%d %b %Y %H:%M")
     html = open(TEMPLATE, encoding="utf-8").read()
     html = html.replace("/*__ITEMS__*/[]", json.dumps(data, ensure_ascii=False)).replace("/*__STAMP__*/", stamp)
     open(OUT, "w", encoding="utf-8").write(html)
+    json.dump({"stamp": stamp, "items": data}, open(os.path.join(ROOT, "items-data.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print("index.html updated (%s Qatar time)." % stamp)
 
 
