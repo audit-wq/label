@@ -1,0 +1,40 @@
+name: Refresh labels
+
+on:
+  workflow_dispatch:          # "Run workflow" button (works from a phone browser or the GitHub app)
+  schedule:
+    - cron: "17 21 * * *"     # every night at 00:17 Qatar time (21:17 UTC)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-labels
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read items from Zoho Books and rebuild the page
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+        run: python scripts/refresh.py
+      - name: Publish if anything changed
+        run: |
+          git config user.name "label-refresh-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html data/items.json
+          if git diff --cached --quiet; then
+            echo "Nothing to publish."
+          else
+            git commit -m "Refresh items from Zoho Books"
+            git push
+          fi
