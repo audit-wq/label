@@ -1840,10 +1840,10 @@
 "sku": "0217"
 },
 "1444585000000155297": {
-"ar": "لمبة ليت LED روكا D4S",
-"cat": "Accessories",
-"lmt": "2026-10-22T16:32:14+0300",
-"name": "HEAD LIGHT LED ROCA D4S",
+"ar": "ضوء الرأس LED ROCA RX180 D4S / D2S",
+"cat": "LED",
+"lmt": "2026-11-03T14:11:43+0300",
+"name": "HEAD LIGHT LED ROCA RX180 D4S/D2S",
 "price": "480",
 "sku": "0218"
 },
@@ -3818,7 +3818,7 @@
 "1444585000000172062": {
 "ar": "ضوء رأس LED ROCA RX180 H11",
 "cat": "LED",
-"lmt": "2026-11-03T14:00:28+0300",
+"lmt": "2026-11-03T14:15:07+0300",
 "name": "HEAD LIGHT LED ROCA RX180 H11",
 "price": "250",
 "sku": "0438"
@@ -6064,17 +6064,17 @@
 "sku": "0657"
 },
 "1444585000000328057": {
-"ar": "لمبة ليت LED تسلا بلس D4S",
-"cat": "Accessories",
-"lmt": "2026-10-22T16:47:35+0300",
-"name": "HEAD LIGHT LED TESLA PLUS D4S",
+"ar": "ضوء الرأس LED TESLA PLUS D4S / D2S",
+"cat": "LED",
+"lmt": "2026-11-03T14:07:53+0300",
+"name": "HEAD LIGHT LED TESLA PLUS D4S/D2S",
 "price": "550",
 "sku": "0658"
 },
 "1444585000000328197": {
 "ar": "لمبة زينون سمارت D5S",
 "cat": "BULB",
-"lmt": "2026-10-31T19:59:51+0300",
+"lmt": "2026-11-03T14:27:06+0300",
 "name": "ZENON BULB SMART D5S",
 "price": "600",
 "sku": "0659"
@@ -6514,7 +6514,7 @@
 "1444585000000380291": {
 "ar": "لمبة ليت LED M10 برو H4",
 "cat": "LED",
-"lmt": "2026-10-22T16:49:26+0300",
+"lmt": "2026-11-03T14:13:27+0300",
 "name": "HEAD LIGHT LED M10 PRO H4",
 "price": "250",
 "sku": "0713"
@@ -6522,7 +6522,7 @@
 "1444585000000380321": {
 "ar": "لمبة ليت LED لايتون H7",
 "cat": "LED",
-"lmt": "2026-10-22T16:49:28+0300",
+"lmt": "2026-11-03T14:10:55+0300",
 "name": "HEAD LIGHT LED LyTune H7",
 "price": "350",
 "sku": "0714"
@@ -7600,10 +7600,10 @@
 "sku": "0842"
 },
 "1444585000000564445": {
-"ar": "لمبة ليت LED روكا H13",
+"ar": "ضوء رأس LED ROCA RX180 H13",
 "cat": "Accessories",
-"lmt": "2026-10-22T16:53:53+0300",
-"name": "HEAD LIGHT LED ROCA H13",
+"lmt": "2026-11-03T14:24:45+0300",
+"name": "HEAD LIGHT LED ROCA RX180 H13",
 "price": "320",
 "sku": "0843"
 },
@@ -8462,5 +8462,13 @@
 "name": "WIPER BLADE MIX",
 "price": "35",
 "sku": "1073"
+},
+"1444585000001519175": {
+"ar": "الرؤوس ضوء LED Xenower H11",
+"cat": "LED",
+"lmt": "2026-11-03T14:19:12+0300",
+"name": "HEADS LIGHT LED Xenower H11",
+"price": "220",
+"sku": "1074"
 }
 }
