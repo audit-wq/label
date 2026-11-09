@@ -8630,5 +8630,37 @@
 "name": "TIRE GUAGE GUN TYPE 25/D",
 "price": "75",
 "sku": "1145"
+},
+"1444585000001858721": {
+"ar": "قياس الإطارات جينكايدي",
+"cat": "UNIVERSAL",
+"lmt": "2026-11-09T15:25:39+0300",
+"name": "TIRE GUAGE JINKAIDI",
+"price": "70",
+"sku": "1146"
+},
+"1444585000001858739": {
+"ar": "PINTLE HOK دبابة متوسطة",
+"cat": "FITTINGS",
+"lmt": "2026-11-09T15:29:15+0300",
+"name": "PINTLE HOOK TANK MEDIM",
+"price": "280",
+"sku": "1147"
+},
+"1444585000001858757": {
+"ar": "كابل معزز السيف PRO 1800AMP",
+"cat": "UNIVERSAL",
+"lmt": "2026-11-09T15:31:49+0300",
+"name": "BOOSTER CABLE SWORD PRO 1800AMP",
+"price": "145",
+"sku": "1148"
+},
+"1444585000001858775": {
+"ar": "حبل سفاري 10 طن",
+"cat": "UNIVERSAL",
+"lmt": "2026-11-09T15:34:24+0300",
+"name": "TOW ROPE SAFARI 10 TON",
+"price": "125",
+"sku": "1149"
 }
 }
