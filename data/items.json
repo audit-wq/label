@@ -2209,8 +2209,8 @@
 },
 "1444585000000155957": {
 "ar": "لمبة ليت LED SK H16",
-"cat": "Accessories",
-"lmt": "2026-11-15T21:09:24+0300",
+"cat": "LED",
+"lmt": "2026-11-15T21:12:36+0300",
 "name": "HEAD LIGHT LED SK H16",
 "price": "350",
 "sku": "0284"
@@ -8384,10 +8384,10 @@
 "sku": "1122"
 },
 "1444585000001834004": {
-"ar": "ضوء الرأس LED TESLA PLUS 9005",
+"ar": "ضوء الرأس LED TESLA PLUS 9006",
 "cat": "LED",
-"lmt": "2026-11-08T15:35:36+0300",
-"name": "HEAD LIGHT LED TESLA PLUS 9005",
+"lmt": "2026-11-15T21:47:34+0300",
+"name": "HEAD LIGHT LED TESLA PLUS 9006",
 "price": "350",
 "sku": "1123"
 },
