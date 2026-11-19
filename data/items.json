@@ -5664,10 +5664,10 @@
 "sku": "0670"
 },
 "1444585000000333424": {
-"ar": "مسند يد لاندكروزر 2022 جلد 5 جام أسود",
+"ar": "راحة يدوية LC 2022 جلدية 5 مزيج زجاجي",
 "cat": "Accessories",
-"lmt": "2026-10-22T16:48:01+0300",
-"name": "HAND REST LC 2022 LEATHER 5 GLASS BLACK",
+"lmt": "2026-11-19T19:19:38+0300",
+"name": "HAND REST LC 2022 LEATHER 5 GLASS  MIX",
 "price": "420",
 "sku": "0671"
 },
@@ -9070,6 +9070,38 @@
 "name": "SWITCH LCTYPE UNIVERSAL",
 "price": "55",
 "sku": "1224"
+},
+"1444585000002299409": {
+"ar": "راحة اليد LC2008-2021 ملابس 5 زجاجية",
+"cat": "Accessories",
+"lmt": "2026-11-19T19:22:44+0300",
+"name": "HAND REST LC2008-2021 CLOTH 5GLASS",
+"price": "300",
+"sku": "1225"
+},
+"1444585000002299427": {
+"ar": "راحة اليد LC2022 ملابس 5 زجاجية",
+"cat": "Accessories",
+"lmt": "2026-11-19T19:31:07+0300",
+"name": "HAND REST LC2022 CLOTH 5GLASS",
+"price": "300",
+"sku": "1226"
+},
+"1444585000002299445": {
+"ar": "راحة يدوية LC2008-21 فستان 2 زجاج",
+"cat": "Accessories",
+"lmt": "2026-11-19T19:42:18+0300",
+"name": "HAND REST LC2008-21 CLOTH 2GLASS",
+"price": "250",
+"sku": "1227"
+},
+"1444585000002299463": {
+"ar": "ملابس صالون راحة يدوية صغيرة",
+"cat": "Accessories",
+"lmt": "2026-11-19T19:47:57+0300",
+"name": "HAND REST SALOON CLOTH SMALL",
+"price": "110",
+"sku": "1228"
 },
 "1444585000002311034": {
 "ar": "نوع Ash TRAY OG",
