@@ -9046,5 +9046,37 @@
 "name": "AIRFRESHNER MIRACLE MIX",
 "price": "20",
 "sku": "1248"
+},
+"1444585000002452159": {
+"ar": "مطعم هوائي راهال رذاذ صغير",
+"cat": "AIR FRESHENER",
+"lmt": "2026-11-24T17:21:57+0300",
+"name": "AIR FRESHNER RAHAL SPRAY SMALL",
+"price": "20",
+"sku": "1235"
+},
+"1444585000002452177": {
+"ar": "رائحة سوداء منتعش للهواء",
+"cat": "AIR FRESHENER",
+"lmt": "2026-11-24T17:45:31+0300",
+"name": "AIR FRESHNER BLACK ODOUR",
+"price": "40",
+"sku": "1236"
+},
+"1444585000002452195": {
+"ar": "مكنسة عنكبوت",
+"cat": "Accessories",
+"lmt": "2026-11-24T18:13:35+0300",
+"name": "VACCUM CLEANER SPIDER",
+"price": "110",
+"sku": "1237"
+},
+"1444585000002452225": {
+"ar": "مكنسة كهربائية HL121",
+"cat": "Accessories",
+"lmt": "2026-11-24T18:17:43+0300",
+"name": "VACCUM CLEANER HL121",
+"price": "150",
+"sku": "1238"
 }
 }
